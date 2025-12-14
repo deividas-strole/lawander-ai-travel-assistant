@@ -41,9 +41,15 @@ The app is designed and developed by **Deividas Strole** to showcase expertise i
 4. Click markers for detailed popups about each place.
 5. Ask questions in the chat to get custom recommendations.
 
-## 📫 Connect with Deividas Strole
+## 📫 Connect
 
-- LinkedIn: [linkedin.com/in/deividas-strole](https://linkedin.com/in/deividas-strole)  
-- YouTube: [youtube.com/@deividas-strole](https://youtube.com/@deividas-strole)
+- [DeividasStrole.com](https://deividasstrole.com)  
+- [LinkedIn](https://linkedin.com/in/deividas-strole)  
+- [YouTube](https://youtube.com/@deividas-strole)  
+- [Dev.to](https://dev.to/deividas-strole)  
+- [Medium](https://medium.com/@deividas-strole)  
+- [X](https://x.com/deividasstrole)  
 
-Deividas Strole | Full-Stack Developer | AI & Web Applications | Travel Technology Enthusiast
+⭐ If you enjoyed this project, consider starring the repository to support the work of **Deividas Strole**.
+
+© 2025 Deividas Strole. All rights reserved.

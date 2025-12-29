@@ -1,0 +1,23 @@
+# Application Configuration
+spring.application.name=lawander
+
+# Server Port (Render will set this)
+server.port=${PORT:8080}
+
+# Security Configuration (for development only - disable for production)
+spring.security.user.name=${SECURITY_USERNAME:q}
+spring.security.user.password=${SECURITY_PASSWORD:q}
+spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+
+# OpenAI API Key
+spring.ai.openai.api-key=${OPENAI_API_KEY}
+
+# Database Configuration
+spring.datasource.url=${DATABASE_URL:jdbc:mysql://localhost:3306/lawander}
+spring.datasource.username=${DATABASE_USERNAME:root}
+spring.datasource.password=${DATABASE_PASSWORD}
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# JPA/Hibernate Configuration
+spring.jpa.hibernate.ddl-auto=${DDL_AUTO:update}
+spring.jpa.show-sql=${SHOW_SQL:true}

@@ -4,6 +4,8 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "../css/chat.css";
 
+const API_URL = process.env.REACT_APP_API_URL;
+
 // Fix for default markers in react-leaflet
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -745,7 +747,7 @@ Example format:
 **Old Town Square** - Description
 `;
 
-        const response = await fetch("http://localhost:8080/api/chat", {
+        const response = await fetch(`${API_URL}/api/chat`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ message: itineraryPrompt }),
@@ -865,7 +867,7 @@ IMPORTANT INSTRUCTIONS:
 
 User question: ${userMessage}`;
 
-      const response = await fetch("http://localhost:8080/api/chat", {
+      const response = await fetch(`${API_URL}/api/chat`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

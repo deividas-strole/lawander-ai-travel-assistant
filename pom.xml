@@ -5,8 +5,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.0</version> <!-- Adjust to the latest stable version -->
-		<relativePath/> <!-- lookup parent from repository -->
+		<version>3.4.0</version>
+		<relativePath/>
 	</parent>
 
 	<groupId>com.coderscampus</groupId>
@@ -16,8 +16,9 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>17</java.version> <!-- Use a supported LTS version -->
-		<spring-ai.version>1.0.0-M4</spring-ai.version>
+		<java.version>17</java.version>
+		<!-- Updated to latest stable release -->
+		<spring-ai.version>1.0.0-M5</spring-ai.version>
 	</properties>
 
 	<dependencies>
@@ -51,10 +52,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		<!-- <dependency>
-			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
-		</dependency> -->
 		<dependency>
 			<groupId>com.amadeus</groupId>
 			<artifactId>amadeus-java</artifactId>
@@ -69,7 +66,12 @@
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
-	</dependency>
+		</dependency>
+		<dependency>
+       		<groupId>com.fasterxml.jackson.core</groupId>
+    	   	<artifactId>jackson-databind</artifactId>
+       		<version>2.17.1</version> <!-- Updated to the latest stable version -->			
+   		</dependency>
 	</dependencies>
 
 	<dependencyManagement>

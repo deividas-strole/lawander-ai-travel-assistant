@@ -10,7 +10,7 @@ spring.security.user.password=${SECURITY_PASSWORD:q}
 spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
 
 # OpenAI API Key
-spring.ai.openai.api-key=${OPENAI_API_KEY}
+# spring.ai.openai.api-key=${OPENAI_API_KEY}
 
 # Database Configuration
 spring.datasource.url=${DATABASE_URL:jdbc:mysql://localhost:3306/lawander}

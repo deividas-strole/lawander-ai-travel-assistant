@@ -2,7 +2,7 @@
 
 LaWander is an AI-powered travel itinerary generator built with Java, Spring Boot, React, JavaScript, and PostgreSQL. Developed by Deividas Strole, this full-stack application helps users create personalized travel plans by simply entering a destination and trip duration. The AI generates a detailed day-by-day itinerary and displays points of interest on an interactive map.
 
-This project, created by Deividas Strole, showcases modern full-stack development, AI integration, database management, and interactive frontend features — perfect for anyone interested in travel tech or building intelligent web applications
+This project, created by Deividas Strole, showcases modern full-stack development, AI integration, database management, and interactive frontend features — perfect for anyone interested in travel tech or building intelligent web applications.
 
 🚀 Overview
 

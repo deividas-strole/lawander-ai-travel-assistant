@@ -8,7 +8,7 @@ This project, created by Deividas Strole, showcases modern full-stack developmen
 
 LaWander simplifies trip planning with artificial intelligence. Users input their destination (e.g., "Tokyo, Japan") and the length of their stay (e.g., "7 days"), and the app returns a tailored itinerary complete with activities, sights, and recommendations. An embedded interactive map highlights key points of interest, making exploration visual and intuitive.
 
-Built by Deividas Strole as part of his portfolio, LaWander demonstrates clean architecture, RESTful APIs, responsive UI design, and the power of combining AI with traditional full-stack technologies
+Built by Deividas Strole as part of his portfolio, LaWander demonstrates clean architecture, RESTful APIs, responsive UI design, and the power of combining AI with traditional full-stack technologies.
 
 ✨ Key Features
 

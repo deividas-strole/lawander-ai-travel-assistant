@@ -17,7 +17,7 @@ Built by Deividas Strole as part of his portfolio, LaWander demonstrates clean a
 - Responsive and modern user interface built with React
 - Secure and scalable backend powered by Spring Boot
 - Persistent data storage using PostgreSQL
-- Full-stack integration showcasing real-world application flow
+- Full-stack integration showcasing real-world application flow.
 
 🛠️ Built With
 

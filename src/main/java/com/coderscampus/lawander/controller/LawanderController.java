@@ -36,7 +36,7 @@ public class LawanderController {
         this.ticketService = ticketService;
         this.chatService = chatService;
     }
-
+//
     @GetMapping("/welcome")
     public String welcomePage() {
         System.out.println("inside welcome");

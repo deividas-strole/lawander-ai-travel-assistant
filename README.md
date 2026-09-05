@@ -4,7 +4,7 @@ LaWander is an AI-powered travel itinerary generator built with Java, Spring Boo
 
 This project, created by Deividas Strole, showcases modern full-stack development, AI integration, database management, and interactive frontend features — perfect for anyone interested in travel tech or building intelligent web applications.
 
-🚀 Overview:
+🚀 Overview
 
 LaWander simplifies trip planning with artificial intelligence. Users input their destination (e.g., "Tokyo, Japan") and the length of their stay (e.g., "7 days"), and the app returns a tailored itinerary complete with activities, sights, and recommendations. An embedded interactive map highlights key points of interest, making exploration visual and intuitive.
 

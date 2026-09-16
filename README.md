@@ -10,7 +10,7 @@ LaWander simplifies trip planning with artificial intelligence. Users input thei
 
 Built by Deividas Strole as part of his portfolio, LaWander demonstrates clean architecture, RESTful APIs, responsive UI design, and the power of combining AI with traditional full-stack technologies.
 
-✨ Key Features
+✨ Key Features:
 
 - AI-generated personalized travel itineraries based on destination and duration
 - Interactive map displaying points of interest (POIs)
